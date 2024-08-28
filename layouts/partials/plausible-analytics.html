@@ -1,4 +1,4 @@
-{{- if hugo.IsServer -}}
+{{ if hugo.IsServer }}
 <!-- Dont add analytics to localhost -->
 {{ else if .Site.Params.plausible_analytics_domain }}
 <script
